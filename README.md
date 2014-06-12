@@ -7,8 +7,13 @@
  - 缩进统一为4个空格
  - 支持cscope
  - 支持模拟IDE环境
-- Python换进
+- Python环境
  - 默认语言从ASCII修改为UTF8
 - Shell 环境
  - 安装分屏应用 screen ?
  - grep 色彩标注
+
+
+
+# 支持系统
+ - Ubuntu 14.04 LTS

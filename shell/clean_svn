@@ -1,0 +1,25 @@
+#!/bin/bash
+
+function usage()
+{
+        echo "Usage: Clear .svn directory"
+        echo "Need Destination Directory"
+        echo "$0 xxx"
+}
+
+if [ $# -ne 1 ]; then
+        usage
+        exit
+fi
+
+
+if [ ! -d $1 ]; then
+        echo "$1 is not a directory"
+        usage
+        exit
+fi
+
+#find $1 -type d -name .svn | xargs -0 rm -fr 
+find $1 -type d -name .svn -print0 | xargs -0 rm -fr
+
+exit 0

@@ -1,0 +1,6 @@
+#echo "ctags -R --fields=+lS"
+#ctags -R --c++-kinds=+p --fields=+ialS --extra=+q . 
+#ctags -R --fields=+lS
+
+
+ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .

@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/rd/src/IC/IC_Misc/mod/plus.6.2/trunk/src/main'
+let g:netrw_dirhist_2='/rd/src/IC/IC_Misc/mod/plus.6.3/trunk/src/include'
+let g:netrw_dirhist_3='/rd/src/IC/IC_Misc/mod/plus.6.3/trunk/src'
+let g:netrw_dirhist_4='/rd/src/IC/IC_Misc/mod/plus.6.3/trunk/src/main'
+let g:netrw_dirhist_5='/rd/pack'
+let g:netrw_dirhist_6='/rd'
+let g:netrw_dirhist_7='/rd/pack'
+let g:netrw_dirhist_8='/rd/src/IC/IC_Console/trunk/include'
