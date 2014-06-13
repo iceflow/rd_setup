@@ -10,10 +10,10 @@ cp -a .vim .vimrc ~
 
 sudo cp .vimrc /etc/vim/vimrc.local
 
-if [ "_$OS" = "_Ubuntu" ]; then
-	sudo apt-get install cscope exuberant-ctags
-	sudo cp ${BIN_FILES} $DST
-fi
+#if [ "_$OS" = "_Ubuntu" ]; then
+sudo apt-get install cscope exuberant-ctags
+sudo cp ${BIN_FILES} $DST
+#fi
 
 
 
