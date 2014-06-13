@@ -6,7 +6,9 @@ DST=/usr/local/bin
 OS=$1
 
 # Copy custom scripts
-cp -a .vim ~
+cp -a .vim .vimrc ~
+
+sudo cp .vimrc /etc/vim/vimrc.local
 
 if [ "_$OS" = "_Ubuntu" ]; then
 	sudo apt-get install cscope exuberant-ctags
