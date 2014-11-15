@@ -17,3 +17,4 @@
 
 # 支持系统
  - Ubuntu 14.04 LTS
+ - 计划支持 CentOS release 6.6 (Final)
